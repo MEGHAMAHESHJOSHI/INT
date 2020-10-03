@@ -3,7 +3,7 @@
 const express = require("express");
 const app= express();
 app.get("/",function(request,respond){
-    respond.send("<h1>HELLO</h1>");
+    respond.send("<h1>Hello</h1>");
 });
 app.get("/name",function(request,respond){
     respond.send("MEGHA MAHESH JOSHI");
